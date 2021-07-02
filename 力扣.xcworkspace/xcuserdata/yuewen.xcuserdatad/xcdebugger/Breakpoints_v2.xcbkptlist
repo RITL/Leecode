@@ -20,21 +20,5 @@
             landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "44480163-2C86-4FFE-AAFF-1F5B994640FF"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x529b;&#x6263;19_&#x5220;&#x9664;&#x94fe;&#x8868;&#x7684;&#x5012;&#x6570;&#x7b2c; N &#x4e2a;&#x7ed3;&#x70b9;/&#x529b;&#x6263;19_&#x5220;&#x9664;&#x94fe;&#x8868;&#x7684;&#x5012;&#x6570;&#x7b2c; N &#x4e2a;&#x7ed3;&#x70b9;/main.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
-            landmarkName = "unknown"
-            landmarkType = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
