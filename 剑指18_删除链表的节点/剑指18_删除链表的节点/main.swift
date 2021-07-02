@@ -72,3 +72,12 @@ class Solution {
     }
 }
 
+
+class Solution1 {
+    func deleteNode(_ node: ListNode?) {
+        if node == nil { return }
+        node?.val = node?.next?.val //将需要删除的结点的赋值与下一个结点
+        node?.next = node?.next?.next //指向下一个的下一个
+    }
+}
+
