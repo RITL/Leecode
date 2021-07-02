@@ -50,9 +50,9 @@ class Solution {
     
     func hasCycle(_ head: ListNode?) -> Bool {
         //如果next为空，返回false即可
-        guard head?.next != nil else {
-            return false
-        }
+//        guard head?.next != nil else {
+//            return false
+//        }
         //快慢指针
         var slow = head
         var fast = head?.next
