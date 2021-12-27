@@ -12,6 +12,25 @@ print("Hello, World!")
 
 //MARK: 冒泡排序
 /// 升序
+//func BubbleSort(arr: inout [Int]) {
+//
+//    let count = arr.count
+//    if count <= 1 { return }
+//
+//    //开始冒泡
+//    for i in 0..<count {
+//        for j in 0..<(count - i - 1) {
+//            //开始对比
+//            if arr[j + 1] < arr[j] {
+//                let temp = arr[j]
+//                arr[j] = arr[j + 1]
+//                arr[j + 1] = temp
+//            }
+//        }
+//    }
+//}
+
+
 func BubbleSort(arr: inout [Int]) {
     
     let count = arr.count
@@ -20,7 +39,6 @@ func BubbleSort(arr: inout [Int]) {
     //开始冒泡
     for i in 0..<count {
         for j in 0..<(count - i - 1) {
-            //开始对比
             if arr[j + 1] < arr[j] {
                 let temp = arr[j]
                 arr[j] = arr[j + 1]

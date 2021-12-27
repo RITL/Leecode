@@ -19,18 +19,21 @@ public class ListNode {
     public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
 }
 
+
+
+
 class Solution {
     //翻转
     func reverseList(_ head: ListNode?) -> ListNode? {
-        
+
         var prev: ListNode? = nil
-        var p = head
-        
+        var cur = head
+
         while p != nil {
-            let next = p?.next
-            p?.next = prev
-            prev = p
-            p = next
+            let next = cur?.next
+            cur?.next = prev
+            prev = cur
+            cur = next
         }
         return prev
     }
